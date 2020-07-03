@@ -307,7 +307,7 @@ footer {
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .check{
+  .check, #check{
     display: block;
   }
 
@@ -331,7 +331,7 @@ footer {
   #check:checked ~ ul{
     left: 0;
   }
-  
+
   .top-wrapper {
     text-align: left;
   }
