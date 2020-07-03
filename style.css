@@ -318,16 +318,13 @@ footer {
     background: linear-gradient(45deg, #1976d2, #5acaff);
     top: 80px;
     left: 200%;
-    float: none;
     text-align: center;
     transition: all .5s;
   }
   
   header li{
     display: block;
-    margin: 50px 0;
-    line-height: 30px;
-    float: none;
+    margin: 0px 0;
   }
 
   #check:checked ~ ul{
