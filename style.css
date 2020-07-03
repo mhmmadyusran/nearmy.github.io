@@ -273,7 +273,7 @@ footer {
   font-size: 32px;
   text-align: right;
 }
-.footer-right li{
+.footer-right a{
   float: left;
   list-style-type: none;
 }
@@ -354,11 +354,13 @@ footer {
   .footer-right{
     float:none ;
     padding-top: 15px;
+    text-align: center;
   }
   .footer-right p{
     text-align: center;
   }
-  .contact-us {
-    padding-left: 110px;
+  .footer-right .contact-us{
+    display: inline-block;
+    text-align: center;
   }
 }
